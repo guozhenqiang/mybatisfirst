@@ -1,5 +1,6 @@
 package cn.itcast.mybatis.po;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
@@ -12,7 +13,7 @@ import java.util.List;
  * @date	2015-4-22上午10:24:16
  * @version 1.0
  */
-public class User {
+public class User implements Serializable{
 	
 	//属性名和数据库表的字段对应
 	private int id;
